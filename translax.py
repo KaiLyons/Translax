@@ -66,15 +66,20 @@ def main():
         output = yexamora(str(argv).split("-y")[1].replace(",", "").replace("'", "").replace("]", "").lower())
         print("Yexamora-Minor Translation: ", output)
     elif(argv[1] == "-dy"):
-
-        print("Dyametes-Minor Translation: ")
-        print("Yexamora-Minor Translation: ")
+        o1 = yexamora(str(argv).split("-dy")[1].replace(",", "").replace("'", "").replace("]", "").lower())
+        o2 = dyametes(str(argv).split("-dy")[1].replace(",", "").replace("'", "").replace("]", "").lower())
+        print("Dyametes-Minor Translation: ", o2)
+        print("Yexamora-Minor Translation: ", o1)
     elif(argv[1] == "-translations"):
         print("get the list of translations")
         if (argv[2] == "-d"):
-            print("Display the Dyametes-Minor Translation")
+            print("Origninal + Translation | Original + Translation")
+            print("a ^ u ^ \no ( e ( \nn < i | \nb / z / \nc # y # \nd * w * \nf & w & \ng $ v $ \nh } t } \nj : s : \nk ] r ] \nl ? q ? \nm @ p @")
         elif (argv[2] == "-y"):
-            print("Display the Yexamora-Minor Translation")
+            print("Origninal + Translation | Original + Translation")
+            print("a ^ z ^ \nb ( y ( \nc | x | \nd / w / \ne # v # \nf * u * \ng $ t $ \nh } s } \ni ; r ; \nj ] q ] \nk ? p ? \nl @ o @ \nm < n <")
+        else:
+            print("invalid 2nd argument")
     else:
         print("Error, unknown input, try translax -help")
 
