@@ -9,7 +9,7 @@ Required tools: Cython, Python3
 
 Clone the repo:`git clone https://github.com/KaiLyons/Translax` \
 Go in directory: `cd Translax` \
-Run the shell file: `sh ./install.sh` \
+Run the shell file: `sudo sh ./install.sh` \
 Test the installation: `translax -help`
 
 ### Run
