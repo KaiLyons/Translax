@@ -5,7 +5,7 @@ Translator for Dyametes-Minor and Yexamora-Minor
 No installation set up on windows but the regular file works.
 
 ## Install Linux:
-Required tools: Cython, Python3
+Required tools: Python 3.*
 
 Clone the repo:`git clone https://github.com/KaiLyons/Translax` \
 Go in directory: `cd Translax` \
