@@ -16,8 +16,8 @@ Test the installation: `translax -help`
 with Python3 compiler on either Linux or Windows (FreeBSD and MacOS too) \
 `translax -y hello world this is the Yexemora Translation`
 
-`-d` runs the Dyametes Translator
-`-y` runs the Yexamora Tranlator
-`-dy` runs both translators
-`-translations` gets the list of either the translations requiring either `-d` or `-y` as the 2nd argument to work
-`-help` displays the help
+`-d` runs the Dyametes Translator \
+`-y` runs the Yexamora Tranlator  \
+`-dy` runs both translators       \
+`-translations` gets the list of either the translations requiring either `-d` or `-y` as the 2nd argument to work \
+`-help` displays the help \
