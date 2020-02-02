@@ -9,6 +9,8 @@ def yexamora(x):
 
 def main():
     if(argv[1] == "-help"):
+        # Wish it looked nicer but this was readable
+
         print("######################")
         print("Welcome to Translax!  ")
         print("Translator for        ")
@@ -17,10 +19,10 @@ def main():
         print("                      ")
         print("Designed by Kai Lyons ")
         print("Translates custom ciphers DESIGNED by Kai Lyons")
-        print("Technically these are translators for Yexamora-Minor\nand Dyametes-Minor as the regular versions have\ntheir own symbols.")
-        print("ask twitter.com/KaiLikesLinux for more information")
-        print("")
-        print("Working comands:")
+        print("Technically these are translators for Yexamora-Minor")
+        print("and Dyametes-Minor as the regular versions have their\nown symbols.")
+        print("\nask twitter.com/KaiLikesLinux for more information")
+        print("\nWorking comands:")
         print("-d             |  Prints out only Dyametes-Minor translations")
         print("-p             |  Prints out only Yexamora-Minor translations")
         print("-dy            |  Prints both Dyametes-Minor and Yexamora-Minor")
